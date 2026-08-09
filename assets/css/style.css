@@ -1,0 +1,155 @@
+.fs-7 {
+    font-size: 0.85rem;
+}
+
+.tracking-wide {
+    letter-spacing: 1.5px;
+}
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.profile-img-wrapper {
+    transform: rotate(3deg);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.profile-img-wrapper:hover {
+    transform: rotate(0deg) scale(1.02);
+}
+
+#banner {
+    background-image: url(../img/pic5.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#breadcrumb {
+    background-image: url(../img/pic1.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#header ul li a:hover {
+    color: azure;
+}
+
+.tracking-wide {
+    letter-spacing: 1.5px;
+}
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .15) !important;
+}
+
+.tracking-wide {
+    letter-spacing: 1.5px;
+}
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .15) !important;
+}
+
+.skill-tag {
+    transition: all 0.2s ease;
+    cursor: default;
+}
+
+.skill-tag:hover {
+    background-color: var(--bs-primary) !important;
+    color: white !important;
+    border-color: var(--bs-primary) !important;
+    transform: scale(1.05);
+}
+
+
+.tracking-wide {
+    letter-spacing: 1px;
+}
+
+.timeline-dot {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.timeline-card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.hover-timeline-item:hover .timeline-dot {
+    background-color: var(--bs-primary) !important;
+    transform: translateX(-50%) scale(1.2) !important;
+}
+
+.hover-timeline-item:hover .timeline-card {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .1) !important;
+    transform: translateY(-3px);
+}
+
+.backdrop-blur {
+    backdrop-filter: blur(5px);
+}
+
+.team-card .team-img {
+    transition: transform 0.4s ease;
+}
+
+.team-card:hover .team-img {
+    transform: scale(1.05);
+}
+
+.team-card .team-social-overlay {
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover .team-social-overlay {
+    transform: translateY(0);
+}
+
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
